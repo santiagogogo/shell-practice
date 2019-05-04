@@ -1,0 +1,22 @@
+#!/bin/bash
+echo -n 'the time is '
+date
+echo 'who is '
+who
+echo 'user is '$USER
+echo 'UID is '$UID
+echo 'home is '$HOME
+
+var1=umspay
+var2=10
+echo "$var1 is channel ,$USER"
+today=$(date +%y%m%d)
+# pwd > log.$today
+
+if [[ pwd ]]; then
+	echo 'it worked'
+fi
+
+for (( i = 0; i < 10; i++ )); do
+	echo '王zhengjun小王八嘻嘻'+$i
+done
